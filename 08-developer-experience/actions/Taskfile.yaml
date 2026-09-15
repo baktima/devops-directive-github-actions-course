@@ -5,6 +5,7 @@ tasks:
     desc: Run the typescript action with @github/local-action
     dir: ../../06-authoring-actions/javascript-actions/typescript-action-with-build
     cmds:
+      - npm install
       - npm run local-action
 
   typescript-action-test:

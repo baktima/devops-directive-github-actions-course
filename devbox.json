@@ -21,6 +21,9 @@
     "namespace-cli@latest",
     "gnused@latest"
   ],
+  "env": {
+    "GITHUB_ACTOR": "baktima"
+  },
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
